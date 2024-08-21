@@ -1,0 +1,469 @@
+/* nav {
+    background-color:
+        rgb(9, 227, 227);
+    width: 40px auto;
+    height: 40px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 60px;
+    position: fixed;
+    top: 2px;
+    width: 98.2%;
+} */
+
+body {
+    background-image: url(https://media.gettyimages.com/id/1369252153/photo/exterior-of-clothing-store-with-womens-and-mens-clothing-on-mannequins-displaying-in-showcase.jpg?s=612x612&w=0&k=20&c=wm_sF_FZTrH9upIPOOKvQgjgVCeLyGSSR184ZyZXYH4=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+
+}
+/* body {
+    padding: 0px;
+    margin: 0px;
+  } */
+  
+  nav {
+    box-shadow: 0px 1px 1px rgb(11, 234, 234);
+    padding-top: 10px;
+  }
+  .top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  
+  .header_logo {
+    height: 40px;
+    width: 90px;
+    fill: orange;
+  }
+  
+  .search_container {
+    width: 100%;
+    border: 1px black solid;
+    border-radius: 25px;
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    
+  }
+  
+  .search_container > input {
+    margin-left: 10px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+  }
+  
+  .category_container {
+    padding: 7px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    width: 110px;
+  }
+  
+  .category_container > i {
+    margin-right: 4px;
+  }
+  
+  .category_container:hover {
+    background-color: rgb(14, 228, 203);
+    transition: all 0.2s;
+  }
+  
+  .search_icon {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .bottom > p {
+    cursor: pointer;
+    padding: 7px 10px;
+    border-radius: 25px;
+    margin-top: 4px;
+  }
+  
+  .sign_in {
+    margin: 0px 10px;
+    width: 60px;
+    text-align: center;
+  }
+  
+  .icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .icon:hover {
+    background-color: rgb(48, 171, 219);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+  }
+  
+  .bottom > p:hover {
+    background-color: rgb(12, 215, 237);
+    transition: all 0.2s;
+  }
+  
+  .bottom_search {
+    display: flex;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  @media (max-width: 900px) {
+    .bottom {
+      display: none;
+    }
+    .bottom_search {
+      display: flex;
+    }
+    .top {
+      justify-content: space-between;
+    }
+  
+    .top > .category_container {
+      display: none;
+    }
+    .top > .search_container {
+      display: none;
+    }
+  }
+  
+  .grid_container {
+    max-width: 1200px;
+    margin: 12px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .grid_container > div {
+    text-align: left;
+  }
+  
+  .info_section {
+    background-color: rgb(10, 217, 228);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  @media (max-width: 900px) {
+    .grid_container {
+      grid-template-columns: 1fr;
+    }
+    .grid_container > div {
+      text-align: center;
+    }
+  }
+
+/* .fashion {
+    cursor: pointer;
+    margin: 0px 12px;
+
+} */
+
+/* .bell {
+    cursor: pointer;
+    margin: 15px;
+    padding: 5px;
+    color: black;
+    flex-wrap: wrap;
+
+
+} */
+
+/* .logo {
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;
+    color: black;
+} */
+
+/* .text {
+    font-size: 30px;
+    font-family: Impact,  sans-serif;
+    color: solid black;
+}
+
+.nav-item {
+    color: black;
+    margin: 30px;
+
+}
+
+.bt {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+h2 {
+    text-align: center;
+    margin-top: 120px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: underline 
+     
+}
+
+div>img {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+
+}
+
+.box {
+    height: 140px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.box-text {
+    margin-top: 13px;
+    font-size: large;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.box>img:hover {
+    transform: scale(1.0);
+    transition: 0.3s;
+    box-shadow: 4px 2px 2px 2px rgb(0, 0, 0);
+}
+
+.long-box {
+    height: 250px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.long-box>img {
+    height: 210px;
+    width: 160px;
+    border-radius: 12px;
+}
+
+.long-box>span {
+    margin-top: 10px;
+}
+
+.long-box-parent {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+.long-box:hover {
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    transform: scale(1.0);
+}
+
+.long-box2 {
+    height: 250px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.long-box2>img {
+    height: 210px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.long-box2>span {
+    margin-top: 10px;
+}
+
+.long-box-parent2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.long-box2:hover {
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    transform: scale(1.0);
+}
+
+.fashion-box {
+    height: 320px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fashion-font {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+.fashion-box>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.fashion-price {
+    font-size: xx-large;
+    color: rgb(244, 53, 6);
+    text-decoration: line-through;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch: expanded;
+    font-style: bold;
+}
+
+.fashion-categories-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.fashion-box>span {
+    padding: 5px;
+}
+
+.fashion-box:hover {
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    transform: scale(1.01);
+}
+
+/* .last-box {
+    background-color:
+        rgb(13, 215, 230);
+    min-height: 850px;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+} */
+
+/* .last-box-child {
+    text-align: center;
+}
+
+.last-box-child>h4 {
+    text-decoration: underline;
+} */
+
+/* .last-box-child1 {
+    height: 380px;
+    width: 380px;
+    margin-top: 15px;
+    margin: 10px;
+} */
+
+/* .last-box-parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+} */
+
+/* .last-box-child1>div>h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} */
+
+/* .last-box-child1>div>p {
+    font-size: 20px;
+    padding: 25px;
+} */
+
+/* .ques {
+    text-align: center;
+
+}
+
+.ques>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+.button>button {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(63, 175, 165);
+    color: rgb(0, 0, 0);
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-size: large;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+
+.button>button:hover {
+    transform: scale(1.0);
+    transition: 1.4s;
+
+}
